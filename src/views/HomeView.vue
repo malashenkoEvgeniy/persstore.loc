@@ -12,7 +12,7 @@ export default {
   },
   methods: {
     getPoint () {
-      this.axios.get('http://localhost/api')
+      this.axios.get('http://localhost:8080/api')
         .then(res => {
           console.log(res)
         })
